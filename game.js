@@ -80,7 +80,7 @@ function checkAnswer(currentLevel) //A function to check the current user answer
   setTimeout(function () {
     $("body").removeClass("game-over"); //Remove the class after a timer
   }, 300);
-  $("#level-title").text("Game Over,Press Any key To Restart!"); //Display
+  $("#level-title").text("Game Over,Press Any key / Reload To Restart!"); //Display
   startOver(); //To reset all the values
 
  }
