@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/<aziz>/public_html/<app_folder>
+        - /bin cp * $DEPLOYPATH 
