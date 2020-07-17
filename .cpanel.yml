@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/aziz/public_html/memoryGame
+    - export DEPLOYPATH=/home/aziz/public_html/memorygame
     - /bin/cp -r * $DEPLOYPATH
